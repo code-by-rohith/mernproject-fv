@@ -1,0 +1,166 @@
+/* App.css */
+.cart-items {
+  border-radius: 50%;
+  background-color: rgb(20, 158, 105);
+  font-weight: 700;
+  color: aliceblue;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  padding: 10px;
+  top: 10px;
+  position: relative;
+  left: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px sold #ccc;
+}
+
+.filter-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-btn button,
+.filter-btn input[type='number'],
+.filter-btn select {
+  margin: 5px; /* Adjust as needed */
+}
+
+/* ProductItem.css */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-image:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+.product-details {
+  text-align: center;
+}
+
+.item-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  text-align: center;
+}
+
+.prdt-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cart-num {
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.filter-btn button {
+  border: 2px solid #4CAF50; /* Green */
+  background-color: transparent;
+  color: #4CAF50; /* Green */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.filter-btn button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #4CAF50; /* Green */
+}
+
+.gfg {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.filter-btn input[type='number'],
+.filter-btn select {
+  border: 2px solid #4CAF50; /* Green */
+  background-color: transparent;
+  color: #4CAF50; /* Green */
+  padding: 8px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.filter-btn input[type='number']:hover,
+.filter-btn select:hover {
+  border-color: #4CAF50; /* Green */
+}
+
+.filter-btn input[type='number']:focus,
+.filter-btn select:focus {
+  outline: none;
+  box-shadow: 0 0 5px #4CAF50; /* Green */
+}
+/* App.css */
+.app-container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.sidebar {
+  width: 250px; /* Set your preferred width */
+  background-color: #f0f0f0;
+  transition: transform 0.3s ease;
+}
+
+.main-content {
+  flex-grow: 1; /* Take up remaining space */
+  padding: 20px;
+}
+
+.sidebar-open {
+  transform: translateX(0); /* Move sidebar into view */
+}
+/* App.css */
+.menu-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #000; /* Adjust color as needed */
+  padding: 10px;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+
